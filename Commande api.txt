@@ -1,0 +1,39 @@
+Creer un environnement virtuelle pour developper Une api:
+
+python -m venv env
+------------------------------------------------------
+Verifier la version de pip:
+
+py -m pip
+------------------------------------------------------
+Activer l environnement Virtuelle:
+
+./env/Scripts/activate.bat
+------------------------------------------------------
+Installer FastApi:
+
+pip install fastapi
+-----------------------------------------------------
+Verifier Les dependances installées
+
+pip freeze
+-----------------------------------------------------
+Crrer Un fichier Pour la liste des dependances
+
+pip freeze >requirements.txt
+----------------------------------------------------
+Installer requirements.txt
+
+pip install -m requirement.txt
+----------------------------------------------------
+Installer le Serveur Unicorn
+
+pip install uvicorn
+-----------------------------------------------------
+Lancer Un Projet
+
+(Powershell et GitHub)
+uvicorn main:app --reload
+
+python -m main:app --reload(Cmd)
+-----------------------------------------------------
