@@ -36,4 +36,12 @@ Lancer Un Projet
 uvicorn main:app --reload
 
 python -m main:app --reload(Cmd)
+uvicorn --9000 main:app --reload pour changer de Port
 -----------------------------------------------------
+sftp utilitaire de ligne de commande pour se connecter 
+a un hote a distance
+sftp sftp_user@192.168.137.27
+Utilitaire filezila pour charger des fichier
+Aficher l emplacement en local :lpwd(Local print working Directory)
+pwd Afficher L emplacement sur le serveur 
+
